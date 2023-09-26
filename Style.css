@@ -1,0 +1,210 @@
+body{
+    margin: 0;
+    font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+}
+#Full{
+    display: flex;
+    padding-top: 20px;
+    margin-top: 40px;
+    margin-left: 200px;
+    width: 260px;
+    height: 50px;
+}
+nav{
+    margin-left: 900px;
+    
+}
+.ouraim{
+    margin-left: 250px;
+    margin-right: 200px;
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    gap: 12px;
+}
+/*selected link*/
+#logo{
+width: 40px;
+height: 40px;
+padding-bottom: 10px;
+}
+#aim{
+font-weight: 300;
+padding-bottom:40px;
+color: green;
+}
+#aim1{
+    display: flex;
+    margin-left: 150px;
+    width: 30%;
+}
+#aim2{
+    display: flex;
+    width: 30%;
+    margin-left: 650px;
+}
+.icon{
+padding-right: 200px;
+padding-top: 30px;
+}
+.Titles{
+    padding-right: 70px;
+}
+#Titles2{
+    padding-right: 70px;
+}
+.container2{
+    display: flex;
+}
+.box {
+    display: inline-block;
+    background-color: #f0f0f0;
+    margin-left: 200px;
+    height: 345px;
+    width: 316.43px;
+    gap: 0;
+}
+#box1{
+    margin-left: 300px;
+    background-color: #00ccb1;
+    text-align: center;
+    color: white;
+    border-radius: 10px;
+}
+#text1{
+    margin-top: 0;
+    margin-right: 0;
+    margin-left: 0;
+    margin-bottom: 10px;
+}
+
+    #box2{
+        background-color: #3d83df;
+        font-size: large;
+        text-align: center;
+        color: white;
+        margin-left: 20px;
+        border-radius: 10px;
+        margin-bottom: 20px;
+
+    }
+#box3{
+    display: inline-block;
+    width: 300px;
+    height: 350px;
+    background-color: #1b2734;
+    font-size: large;
+    text-align: center;
+    color: white;
+    border-radius: 10px;
+    margin-left: 20px;
+    /* margin-top: 60px; */
+}
+.Global{
+    display: flex;
+    margin-left: 220px;
+    color: green;
+    font-weight: 300;
+    font-size: large
+}
+.logos-group{
+    display: flex;
+    gap: 200px;
+    padding-left: 70px;
+    margin-top: 20px;
+}
+.tinylogo{
+    margin-left: 200px;
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    gap: 30px;
+}
+.container3{
+    display: flex;
+    margin-top: 55px;
+    background-color: #d0faf4;
+}
+
+.Above-Logo{
+    
+    display: flex;
+    margin-right: 50px;
+    height: 100%;
+    justify-content: space-around;
+    margin-left: 100px;
+}
+.four-items{
+/* display: flex; */
+height: 100%;
+justify-content: space-around;
+}
+.img{
+    width: 75px;
+}
+.left-content{
+color: #00b39b;
+margin-left: 200PX;
+}
+.left-two{
+    display: flex;
+    /* flex-direction: column; */
+    margin-top: 20px;
+    /* margin-right: 60px; */
+
+}
+#We-work{
+    margin-left: 150px;
+    padding-top: 20px;
+color: #747474;
+}
+#Big-Logo{
+    display: flex;
+    padding-right: 900px;
+    padding-top: 20px;
+
+}
+.Below-Logo{
+    display: flex;
+    margin-left: 200px;
+}
+.goals{
+    font-family: Work Sans, Arial, sans-serif;
+    font-weight: 300;
+    text-align: center;
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+.Btext{
+    display: flex;
+    justify-content: space-between;
+    padding: 3px;
+}
+.text{
+    text-align: left;
+}
+footer{
+    text-align: center;
+}
+.grid-container{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    justify-self: center;
+}
+
+.B-text{
+    margin: 0;
+    padding: 0;
+}
+#warsaw, #curitiba,#istanbul{
+    margin-left: 180px;
+}
+#bologna, #mexico, #munich{
+    margin-right: 180px;
+}
+.grid-item{
+    object-fit: cover;
+}
+.section7{
+    margin-top: 100px;
+    margin-bottom: 60px;
+    text-align: center;
+}
